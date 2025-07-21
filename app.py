@@ -22,7 +22,7 @@ def load_data(path):
     df['하위카테고리'] = df['하위카테고리'].fillna('없음')
     return df
 
-df = load_data("/Users/treasure/Documents/MCP/last.csv")
+df = load_data("last.csv")
 
 # --- 사이드바 (필터 옵션) ---
 with st.sidebar:
